@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form method="post" action="cart.jsp">
+		<table>
+			<tr>
+				<td><label for="laptops">Laptops</label></td>
+				<td><select name="laptops" multiple>
+						<option value="Dell 15'">Dell Inspiron 15'</option>
+						<option value="hp 14'">hp 14'</option>
+						<option value="Lenovo 15'">Lenovo 15'</option>
+						<option value="Sony 14'">Sony Viao 14'</option>
+						<option value="Acer 15'">Acer 15'</option>
+				</select></td>
+			</tr>
+			<tr>
+				<td><label for="storage">Storage</label></td>
+				<td><input type="checkbox" name="storage" value="Transcend 8GB">
+					Transcend 8GB 
+					<input type="checkbox" name="storage"
+					value="Transcend 16GB"> Transcend 16GB <br /> 
+					<input
+					type="checkbox" name="storage" value="Transcend 32GB">
+					Transcend 32GB 
+					<input type="checkbox" name="storage"
+					value="Transcend 64GB"> Transcend 64GB <br /> 
+					<input type="checkbox" name="storage" value="hp 64GB">
+					hp 64GB 
+					<input type="checkbox" name="storage"
+					value="hp 32GB"> hp 32GB <br /> 
+					<input type="checkbox" name="storage" value="hp 16GB">
+					hp 16GB 
+					<input type="checkbox" name="storage" value="hp 8GB"> 
+					hp 8GB <br />
+				</td>
+			</tr>
+			<tr>
+				<td><input type="submit" value="Add to Cart" /></td>
+			</tr>
+		</table>
+
+	</form>
+</body>
+</html>
